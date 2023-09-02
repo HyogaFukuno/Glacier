@@ -1,0 +1,16 @@
+{
+    "name": "Glacier.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4be05c93db13ee543a9a7b264208afb9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
