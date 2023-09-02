@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using Sirenix.OdinInspector;
 
 namespace Glacier.Internal
 {
@@ -24,7 +23,6 @@ namespace Glacier.Internal
 
         #endregion
 
-        [InfoBox("実行中に予期せぬエラーが発生した際にユーザーに通知するダイアログを指定してください。\nプレハブはCanvasを持ち、子にダイアログを持つプレハブを指定してください。", InfoMessageType.Info)]
         public GameObject UncaughtExceptionDialogPrefab;
     }
 }
