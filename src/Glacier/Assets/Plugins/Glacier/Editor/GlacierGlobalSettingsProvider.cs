@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿#if UNITY_EDITOR
+
+using System.IO;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -86,3 +88,5 @@ namespace Glacier.Internal
         #endregion
     }
 }
+
+#endif
