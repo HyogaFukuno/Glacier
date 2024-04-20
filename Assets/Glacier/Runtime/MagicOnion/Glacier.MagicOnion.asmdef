@@ -2,7 +2,9 @@
     "name": "Glacier.MagicOnion",
     "rootNamespace": "",
     "references": [
-        "GUID:ccdb2a3bafe19b34792bb6e19521813e"
+        "GUID:ccdb2a3bafe19b34792bb6e19521813e",
+        "GUID:350d0af80fb7b7947a59de66ab477547",
+        "GUID:c3bc0afe4a069b54aa23296f3c18a871"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -16,6 +18,11 @@
             "name": "com.cysharp.magiconion",
             "expression": "6.1.2",
             "define": "GLACIER_MAGICONION"
+        },
+        {
+            "name": "com.cysharp.yetanotherhttphandler",
+            "expression": "1.2.1",
+            "define": "GLACIER_YETANOTHERHTTPHANDLER"
         }
     ],
     "noEngineReferences": false

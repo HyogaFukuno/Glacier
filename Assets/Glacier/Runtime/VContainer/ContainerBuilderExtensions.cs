@@ -1,5 +1,8 @@
+#if GLACIER_VCONTAINER
+
 using VContainer;
 
+// ReSharper disable once CheckNamespace
 namespace Glacier.VContainer
 {
     public static class ContainerBuilderExtensions
@@ -26,3 +29,5 @@ namespace Glacier.VContainer
         }
     }
 }
+
+#endif
